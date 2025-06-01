@@ -39,7 +39,7 @@ class WebCrawler:
         if results:
             print("Search results:")
             for result in results:
-                print(f"- {undefined_variable}")
+                print(f"- {result}")    # modified print_results function, changed the name of the variable.
         else:
             print("No results found.")
 
